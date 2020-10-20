@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d07049ed28ba1185dbcf9ca4eb545980cb3828f5dbb59b041a3bffc921322811
+-- hash: f3d2cb6def430616b07a64b57c20ebfd4f33866dd9bebe971b5db4ee360cec6b
 
 name:           sample
 version:        0.1.0.0
@@ -54,6 +54,8 @@ executable sample-exe
       base >=4.7 && <5
     , random
     , sample
+    , containers
+    , parsec
   default-language: Haskell2010
 
 test-suite sample-test
